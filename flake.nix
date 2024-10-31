@@ -10,7 +10,7 @@
       inputs.CHaP.follows = "CHaP";
     };
     kupo = {
-      url = "github:klarkc/kupo/patch-1";
+      url = "github:CardanoSolutions/kupo/v2.9.0";
       flake = false;
     };
   };

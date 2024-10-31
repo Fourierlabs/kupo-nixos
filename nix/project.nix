@@ -9,7 +9,7 @@
         ];
     };
     # `compiler-nix-name` upgrade policy: as soon as inputs.kupo
-    compiler-nix-name = lib.mkDefault "ghc963"; # from upstream Makefile
+    compiler-nix-name = lib.mkDefault "ghc96"; # from upstream Makefile
     inputMap = {
       "https://input-output-hk.github.io/cardano-haskell-packages" = inputs.iogx.inputs.CHaP;
     };
